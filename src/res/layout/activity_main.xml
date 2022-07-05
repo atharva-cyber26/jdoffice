@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="eeeeeeee" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:id="false" android:layout_width="700dp" android:layout_height="400dp" android:src="res/drawable-v24/first.png" android:layout_centerInParent="true" />
+</RelativeLayout>

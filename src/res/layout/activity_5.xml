@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:background="48c5b9" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:background="res/drawable-v24/back2.jpg" android:layout_width="-1" android:layout_height="230dp">
+					<ImageView android:layout_gravity="0x11" android:layout_width="200dp" android:layout_height="130dp" android:src="res/drawable-v24/maha.jpeg" />
+					<TextView android:textSize="26sp" android:textStyle="0x1" android:textColor="ff295b" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Welcome to Nanded Region" />
+				</LinearLayout>
+				<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="215dp" android:layout_marginRight="10dp">
+					<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="200dp" android:layout_marginBottom="10dp">
+						<androidx.cardview.widget.CardView android:layout_gravity="0x11" android:background="000" android:layout_width="0dp" android:layout_height="250dp" android:layout_marginRight="5dp" android:layout_weight="{4:1065353216}">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<ImageView android:id="false" android:layout_width="180dp" android:layout_height="130dp" android:src="res/drawable-v24/nanded.png" android:layout_centerInParent="true" />
+								<TextView android:textSize="18sp" android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="NANDED DISTRICT" android:layout_below="false" android:layout_centerHorizontal="true" />
+								<Button android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" android:onClick="onclick" />
+							</RelativeLayout>
+						</androidx.cardview.widget.CardView>
+						<androidx.cardview.widget.CardView android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="250dp" android:layout_marginLeft="5dp" android:layout_weight="{4:1065353216}">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<ImageView android:id="false" android:layout_width="180dp" android:layout_height="130dp" android:src="res/drawable-v24/latur.png" android:layout_centerInParent="true" />
+								<TextView android:textSize="18sp" android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="LATUR DISTRICT" android:layout_below="false" android:layout_centerHorizontal="true" />
+								<Button android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" android:onClick="onclick" />
+							</RelativeLayout>
+						</androidx.cardview.widget.CardView>
+					</LinearLayout>
+					<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="200dp" android:layout_marginTop="50dp" android:layout_marginBottom="10dp">
+						<androidx.cardview.widget.CardView android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="250dp" android:layout_marginRight="5dp" android:layout_weight="{4:1065353216}">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<ImageView android:id="false" android:layout_width="180dp" android:layout_height="130dp" android:src="res/drawable-v24/hingoli.png" android:layout_centerInParent="true" />
+								<TextView android:textSize="18sp" android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="HINGOLI DISTRICT" android:layout_below="false" android:layout_centerHorizontal="true" />
+								<Button android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" android:onClick="onclick" />
+							</RelativeLayout>
+						</androidx.cardview.widget.CardView>
+						<androidx.cardview.widget.CardView android:layout_gravity="0x11" android:layout_width="0dp" android:layout_height="250dp" android:layout_marginLeft="5dp" android:layout_weight="{4:1065353216}">
+							<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+								<ImageView android:id="false" android:layout_width="180dp" android:layout_height="130dp" android:src="res/drawable-v24/parbhani.png" android:layout_centerInParent="true" />
+								<TextView android:textSize="17sp" android:textStyle="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="PARBHANI DISTRICT" android:layout_below="false" android:layout_centerHorizontal="true" />
+								<Button android:id="false" android:background="0000" android:layout_width="-1" android:layout_height="-1" android:onClick="onclick" />
+							</RelativeLayout>
+						</androidx.cardview.widget.CardView>
+					</LinearLayout>
+				</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.example.jdoffice" platformBuildVersionCode="29" platformBuildVersionName="10">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="29" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:theme="resourceId:0x7f0c0005" android:label="Jd office" android:icon="res/mipmap-xxxhdpi-v4/ic_launcher.png" android:debuggable="true" android:testOnly="true" android:allowBackup="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:roundIcon="res/mipmap-xxxhdpi-v4/ic_launcher_round.png" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+		<activity android:name="com.example.jdoffice.Activity12" />
+		<activity android:name="com.example.jdoffice.Activity11" />
+		<activity android:name="com.example.jdoffice.Activity10" />
+		<activity android:name="com.example.jdoffice.Activity9" />
+		<activity android:name="com.example.jdoffice.Activity8" />
+		<activity android:name="com.example.jdoffice.Activity7" />
+		<activity android:name="com.example.jdoffice.Activity6" />
+		<activity android:name="com.example.jdoffice.Activity5" />
+		<activity android:name="com.example.jdoffice.Activity4" />
+		<activity android:name="com.example.jdoffice.Activity3" />
+		<activity android:name="com.example.jdoffice.Activity2" />
+		<activity android:name="com.example.jdoffice.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
